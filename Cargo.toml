@@ -1,0 +1,12 @@
+[package]
+name = "auction"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+concordium-std = "3.0"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
